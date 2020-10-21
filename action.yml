@@ -1,0 +1,28 @@
+---
+name: "Packer Build"
+author: "Jerry Warren <jerry@forged-concepts.com>"
+description: "runs packer build from a template file"
+
+inputs:
+  templatefile:
+    description: "a packer template file for packer build"
+    required: true
+    default: "packer.json"
+  varfile:
+    description: "a packer var file for packer build"
+    required: false
+  options:
+    description: "list of options for packer build"
+    required: false
+  workingdirectory:
+    description: "a directory where the packer template lives"
+    required: false
+    default: "."
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "package"
+  color: "gray-dark"
