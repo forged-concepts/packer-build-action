@@ -4,7 +4,15 @@ The Github action is used for building automated machine images with [packer](ht
 
 ## Table Of Contents
 
-- []
+- [Packer Build GitHub Action](#packer-build-github-action)
+  - [Table Of Contents](#table-of-contents)
+  - [Usage](#usage)
+    - [Inputs](#inputs)
+      - [`templatefile`](#templatefile)
+      - [`varfile`](#varfile)
+      - [`options`](#options)
+      - [`workingdirectory`](#workingdirectory)
+    - [Debugging](#debugging)
 
 ## Usage
 
