@@ -1,4 +1,4 @@
-FROM hashicorp/packer:1.6.4
+FROM forgedconcepts/packer-aws-session-manager:latest
 
 COPY entrypoint.sh /entrypoint.sh
 
