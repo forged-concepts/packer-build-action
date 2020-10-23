@@ -1,7 +1,7 @@
 ---
-name: "Packer Build"
+name: "Packer Build w/ AWS Session Manager plugin"
 author: "Jerry Warren <jerry@forged-concepts.com>"
-description: "runs packer build from a template file"
+description: "runs packer build from a template file with aws session manager support"
 
 inputs:
   templatefile:
