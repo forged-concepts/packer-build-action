@@ -9,7 +9,7 @@ OPERATION="packer build"
 
 # set options
 if [ -n "${INPUT_OPTIONS}" ]; then
-  OPERATION="${OPERATIONS} ${INPUT_OPTIONS}"
+  OPERATION="${OPERATION} ${INPUT_OPTIONS}"
 fi
 
 # set var file
